@@ -1,0 +1,96 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.carousel-item img {
+    filter: brightness(60%);
+
+}
+.fs-2{
+    font-weight: 700;
+}
+.nav-sec{
+    padding-left: 95px;
+    padding-right: 100px;
+}
+.pddn{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.carousel-text button{
+    margin-bottom: 30px;
+
+    font-weight: 600;
+}
+.carousel-text h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 800;
+}
+.carousel-text p{
+    font-size: 13px;
+}
+.d{
+    margin-top: 80px;
+    
+}
+.s{
+    font-size: 30px;
+}
+.x{
+    font-size: 19px;
+}
+.text p{
+    font-size: 15px;
+    color: #8a8186;
+}
+.text-eady p{
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .register{
+        padding: 0;
+    }
+    .nav-sec{
+        padding: 0;
+        margin: 0;
+    }
+    .carousel{
+        padding: 0px;
+    }
+    .carousel-text h1{
+        margin: 0px;
+        padding: 0;
+        font-size: 15px;
+    }
+    .carousel-text button{
+        margin: 5px 0 5px 0;
+        padding: 0px;
+        font-weight: 300;
+        font-size: 8px;
+    }
+    .pddn{
+        padding: 0;
+        margin: 0;
+    }
+    .carousel-text p{
+        font-size: 6px;
+        margin: 0;
+        padding: 0;
+    }
+    .d{
+        padding: 0;
+        margin: 0;
+    }
+    .d p{
+        font-size: 12px;
+        padding: 0;
+    }
+    .s{
+        font-size: 20px;
+    }
+    .x{
+        font-size: 16px;
+    }
+}
